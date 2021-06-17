@@ -1,0 +1,82 @@
+{
+  "uid" : "afeedfce48c157d7",
+  "name" : "test_add_negative",
+  "fullName" : "testproject.test_mymath#test_add_negative",
+  "historyId" : "753cdf21aa3257d3e2249d83346a13e6",
+  "time" : {
+    "start" : 1623920718190,
+    "stop" : 1623920718190,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "test_mymath"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-284"
+  }, {
+    "name" : "thread",
+    "value" : "2794-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.test_mymath"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "812e43e9a91f9d0",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/12//#testresult/812e43e9a91f9d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623777103871,
+          "stop" : 1623777103871,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1b780a59dd69d12b",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/11//#testresult/1b780a59dd69d12b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623399131392,
+          "stop" : 1623399131392,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "afeedfce48c157d7.json",
+  "parameterValues" : [ ]
+}
