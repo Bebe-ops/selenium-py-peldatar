@@ -18,6 +18,9 @@ jobs:
       - name: Test with pytest
         run: |
           pytest --alluredir=allure-results
+        env:
+          RUNENV: GITHUB    
+
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
