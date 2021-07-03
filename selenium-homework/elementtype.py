@@ -7,30 +7,33 @@ options = Options()
 options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 
-driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)  # headless mód
-# driver = webdriver.Chrome(ChromeDriverManager().install())
-driver.get("http://localhost:9999/trickyelements.html")
-
-randomized = driver.find_element_by_id("randomized")
-difficulty = driver.find_element_by_id("difficulty")
-element1 = driver.find_element_by_id("element1")
-element2 = driver.find_element_by_id("element2")
-element3 = driver.find_element_by_id("element3")
-element4 = driver.find_element_by_id("element4")
-element5 = driver.find_element_by_id("element5")
-result = driver.find_element_by_id("result")
+# driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)  # headless mód
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
-def button_click():
-    try:
-        first_button = driver.find_element_by_xpath("/html/body/form/button[1]")
-        first_button.click()
-        print(result.text)
-        assert(result.text == f'{first_button.text} was clicked')
-    except NoSuchElementException:
-        print("Nincs button típusú elem.")
+def find_elem_by_id(my_id):
+    element = driver.find_element_by_id(my_id)
+    return element
 
 
-button_click()
+try:
+    driver.get("http://localhost:9999/trickyelements.html")
+    find_elem_by_id("randomized")
+    find_elem_by_id("difficulty")
+    find_elem_by_id("element1")
+    find_elem_by_id("element2")
+    find_elem_by_id("element3")
+    find_elem_by_id("element4")
+    find_elem_by_id("element5")
+    first_button = driver.find_element_by_xpath("/html/body/form/button[1]")
+    first_button.click()
+    result = driver.find_element_by_id("result")
+    print(result.text)
+    assert(result.text == f'{first_button.text} was clicked')
+    print("Test finished OK!")
 
-driver.close()
+except NoSuchElementException as e:
+    print('Element not found: ', e)
+
+finally:
+    driver.close()

@@ -49,10 +49,10 @@ benzin_ar = float(input(" Mennyibe fáj a benzin literje: "))
 
 def calc():
     ossz_fogy_oda = (orszaguti_fogyasztas * orszagut_hossz + varosi_fogysztas * varosut_hossz) / 100
-    print(f' A fogyasztás az odaúton: {ossz_fogy_oda} liter benzin.')
     ossz_fogy_oda_vissza = ossz_fogy_oda * 2
-    print(f' A fogyasztás oda-vissza: {ossz_fogy_oda_vissza} liter benzin.')
     koltseg = ossz_fogy_oda_vissza * benzin_ar
+    print(f' A fogyasztás az odaúton: {ossz_fogy_oda} liter benzin.')
+    print(f' A fogyasztás oda-vissza: {ossz_fogy_oda_vissza} liter benzin.')
     print(f' A teljes út költsége: {koltseg} HUF.')
 
 
