@@ -19,10 +19,10 @@ def get_attr():
 
 try:
     driver.get("http://localhost:9999/kitchensink.html")
-    bmw_radio = driver.find_element_by_id("bmwradio")
-    car_select = driver.find_element_by_id("carselect")
-    alert_input = driver.find_element_by_name("enter-name")
-    input_show_hide = driver.find_element_by_name("show-hide")
+    driver.find_element_by_id("bmwradio")
+    driver.find_element_by_id("carselect")
+    driver.find_element_by_name("enter-name")
+    driver.find_element_by_name("show-hide")
     multi_select_apple = driver.find_element_by_xpath('//select[@id="multiple-select-example"]/option[1]')
     bmw_check = driver.find_element_by_xpath('//input[@id="bmwcheck"]')
     confirm_button = driver.find_element_by_id("confirmbtn")
