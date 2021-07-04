@@ -1,1 +1,9 @@
-['Egyszer\n', 'volt,\n', 'hol\n', 'nem\n', 'volt,\n', 'volt\n', 'egyszer\n', 'egy\n', 'ember.']
+Egyszer
+volt,
+hol
+nem
+volt,
+volt
+egyszer
+egy
+ember.

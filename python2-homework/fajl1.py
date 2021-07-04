@@ -1,7 +1,5 @@
-""" Olvasd be a fájlt, és írd ki a tartalmát egy sorba, úgy, hogy nem tárolod el a szöveget, hanem minden sort
-azonnal kiírsz!
-A megoldást egy fajl1.py nevű file-ban kell beadnod.
-"""
+# Olvasd be a fájlt, és írd ki a tartalmát egy sorba, úgy, hogy nem tárolod el a szöveget, hanem minden sort
+# azonnal kiírsz!
 
 # egy sorban kiírva
 with open("adat.txt", "r") as f:
@@ -16,7 +14,6 @@ with open("adat.txt", "r") as file:
 print("°" * 95)
 
 # 1 sorba kiírva folyó szövegként:
-my_string = ""
 with open("adat.txt", "r") as f1:
     for sor in f1:
         print(sor.strip() + " ", end="")
