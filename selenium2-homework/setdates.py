@@ -36,8 +36,7 @@ try:
 
     # date-time field
     time.sleep(1)
-    date_time_field.send_keys(date02.strftime("%Y.%m.%d %H:%M:%S:%f"))  # megoldani, hogy ne írjon elé 000-át
-    # date_time_field.send_keys(date02.strftime("%Y.%m.%d %H:%M:%S:%f").lstrip("0"))  # ez nem jött be
+    date_time_field.send_keys(date02.strftime("%Y.%m.%d %H:%M:%S:%f").replace("000", ""))
 
     # date/Time local field
     time.sleep(1)
