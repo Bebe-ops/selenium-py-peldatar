@@ -52,11 +52,11 @@ try:
     double_btn = driver.find_element_by_xpath('//input[@value="Double Click Me"]')
     action = ActionChains(driver)
     action.double_click(double_btn).perform()
-    alert = driver.switch_to.alert
-    assert alert.text == expected_d_click_text
+    d_c_alert = driver.switch_to.alert
+    assert d_c_alert.text == expected_d_click_text
     print('Double click alert is OK!')
     time.sleep(1)
-    alert.accept()
+    d_c_alert.accept()
 except AssertionError:
     print('The written text does not match the expected result.')
 finally:
