@@ -54,7 +54,7 @@ try:
 
     # # Time field
     time.sleep(1)
-    time_field.send_keys(date06.strftime('%H'))
-    time_field.send_keys(date06.strftime('%M'))
+    time_field.send_keys(date06.strftime('%H:%M'))
+
 finally:
     driver.close()
