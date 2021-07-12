@@ -1,0 +1,244 @@
+{
+  "uid" : "c8a7a6aa70dc0198",
+  "name" : "test_add_string__expect_exception",
+  "fullName" : "testproject.test_mymath#test_add_string__expect_exception",
+  "historyId" : "0e93b819cc2e8121f7281dc8e4eaaf78",
+  "time" : {
+    "start" : 1626106411283,
+    "stop" : 1626106411283,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "test_mymath"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-26"
+  }, {
+    "name" : "thread",
+    "value" : "2797-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.test_mymath"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 37,
+        "unknown" : 0,
+        "total" : 37
+      },
+      "items" : [ {
+        "uid" : "a893baa3294177cf",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/46//#testresult/a893baa3294177cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626016750838,
+          "stop" : 1626016750838,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "164da518aad7dfb5",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/45//#testresult/164da518aad7dfb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625996833542,
+          "stop" : 1625996833542,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1ea19a25304b4257",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/44//#testresult/1ea19a25304b4257",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625756703447,
+          "stop" : 1625756703447,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "67ac5cd512b52e1e",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/43//#testresult/67ac5cd512b52e1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625754357761,
+          "stop" : 1625754357761,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "21ff10d2f61df0ab",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/42//#testresult/21ff10d2f61df0ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625752799870,
+          "stop" : 1625752799871,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "192a2cb2a6964021",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/41//#testresult/192a2cb2a6964021",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625752192118,
+          "stop" : 1625752192118,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "38035a927f5499e5",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/40//#testresult/38035a927f5499e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625653757516,
+          "stop" : 1625653757516,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9e3aabadf5e2fe86",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/39//#testresult/9e3aabadf5e2fe86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625410497335,
+          "stop" : 1625410497336,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "97c66e7eeb0ca3d2",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/38//#testresult/97c66e7eeb0ca3d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625397104999,
+          "stop" : 1625397104999,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9540c90bf7a59f51",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/37//#testresult/9540c90bf7a59f51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625336643859,
+          "stop" : 1625336643859,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "227526df5e18fa8a",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/36//#testresult/227526df5e18fa8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625336559053,
+          "stop" : 1625336559053,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3c8b70108d67d33e",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/35//#testresult/3c8b70108d67d33e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625334317049,
+          "stop" : 1625334317049,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7dad972de98cbc86",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/34//#testresult/7dad972de98cbc86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625321440504,
+          "stop" : 1625321440504,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9a976c977cf0194d",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/33//#testresult/9a976c977cf0194d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625321393413,
+          "stop" : 1625321393413,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "574ecb9bd0f5ebf0",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/32//#testresult/574ecb9bd0f5ebf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625231861052,
+          "stop" : 1625231861052,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3f7e2b57bc6f57f9",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/31//#testresult/3f7e2b57bc6f57f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625078515008,
+          "stop" : 1625078515009,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3407a9f90bd706e9",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/30//#testresult/3407a9f90bd706e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625075912037,
+          "stop" : 1625075912038,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "34a7d0ce3d3d6728",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/29//#testresult/34a7d0ce3d3d6728",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624897803037,
+          "stop" : 1624897803037,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "39ba0333608fb00c",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/28//#testresult/39ba0333608fb00c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624795314102,
+          "stop" : 1624795314102,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b50ca9342a1721b1",
+        "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/27//#testresult/b50ca9342a1721b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624629664772,
+          "stop" : 1624629664772,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c8a7a6aa70dc0198.json",
+  "parameterValues" : [ ]
+}
