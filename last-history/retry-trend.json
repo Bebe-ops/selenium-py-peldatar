@@ -1,4 +1,12 @@
 [ {
+  "buildOrder" : 55,
+  "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/55/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 0,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 54,
   "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/54/",
   "reportName" : "Allure Report with history",
@@ -145,14 +153,6 @@
 }, {
   "buildOrder" : 36,
   "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/36/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 4,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 35,
-  "reportUrl" : "https://Bebe-ops.github.io/selenium-py-peldatar/35/",
   "reportName" : "Allure Report with history",
   "data" : {
     "run" : 4,
