@@ -1,4 +1,4 @@
-# 006 Feladat: Fixture, setup, teardown
+# 006 Feladat: Fixture, setup, teardown,
 # alertfun pytest átalakítása -> fixture használata a böngésző inicializálására
 import pytest
 from selenium import webdriver
